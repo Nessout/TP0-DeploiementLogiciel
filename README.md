@@ -147,3 +147,10 @@ tar -tzvf nom1-nom2.tar.gz
 ```
 
 Liste le contenu de l'archive pour vérifier que tous les fichiers nécessaires sont bien inclus.
+
+
+### Décompression de l'archive 
+
+```bash
+tar -xzvf nom1-nom2.tar.gz -C /chemin/vers/dossier_test
+```
