@@ -11,6 +11,6 @@ if [ -f "$ARCHIVE_NAME" ]; then
 fi
 
 # Crée l'archive contenant les répertoires src, bin, docs et les scripts
-tar -czvf "$ARCHIVE_NAME" src bin docs compile hello runTests cleanAll readme.txt
+tar -czvf "$ARCHIVE_NAME" src bin docs compile.sh hello.sh runTests.sh cleanAll.sh README.md
 
 echo "Archive $ARCHIVE_NAME créée avec succès."
